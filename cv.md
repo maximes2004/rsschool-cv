@@ -1,10 +1,10 @@
-#Maxim Denisenkov#
+# Maxim Denisenkov #
 
-###Junior Frontend Developer###
+## Junior Frontend Developer ##
 
 ___
 
-###Contact information:###
+### Contact information: ###
 
 * Location: Erevan, Armenia
 * Phone: +374 93 881-693
@@ -17,7 +17,7 @@ I'm passionate about website development and have commercial experience in this 
 
 ___
 
-###Skills:###
+### Skills: ###
 
 * HTML5
 * CSS3
@@ -32,7 +32,7 @@ ___
 
 ___
 
-###Code Example###
+### Code Example ###
 
 function isPrime(num) {
     // Числа меньше или равные 1 не являются простыми.
@@ -59,13 +59,13 @@ console.log(`Число 19 является простым: ${isPrime(19)}`); //
 
 ___
 
-###Experience###
+### Experience ###
 
 Creation and commercial use of a website on the Joomla CMS: www.stok-s.ru
 
 ___
 
-###Education###
+### Education ###
 
 * Saint Petersburg State University of Technology and Design (graduated in 2014)
 * HTML Academy courses (graduated in 2019)
@@ -73,7 +73,7 @@ ___
 
 ___
 
-###Languages###
+### Languages ###
 
 * Russian (native) 
 * English (A2-B1)
