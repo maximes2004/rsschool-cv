@@ -1,57 +1,57 @@
 /* Reset basic offsets and set box-sizing */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Global body styles */
 body {
-    font-family: Arial, sans-serif;
-    color: #222;
-    background: #fff;
-    line-height: 1.5;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.5;
 }
 
 /* Wrapper (Container) for content alignment */
 .wrapper {
-    max-width: 1200px; /* Maximum width of the content */
-    margin: 0 auto;    /* Horizontal centering */
-    padding: 0 20px;   /* Side padding for mobile responsiveness */
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Horizontal centering */
+  padding: 0 20px; /* Side padding for mobile responsiveness */
 }
 
 /* Header styles with full-width background */
 .header {
-    background-color: #f4f4f4;
-    padding: 20px 0;
+  background-color: #f4f4f4;
+  padding: 20px 0;
 }
 
 /* Section styles for visual separation */
 .section {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 /* Alternative background for specific sections */
 .section-alt {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 /* Footer styles */
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
 /*nav styles*/
 .nav-list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-list li {
-    list-style: none;
-    padding-right: 20px;
-    white-space: nowrap;
+  list-style: none;
+  padding-right: 20px;
+  white-space: nowrap;
 }
