@@ -43,3 +43,15 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
+/*nav styles*/
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    list-style: none;
+    padding-right: 20px;
+    white-space: nowrap;
+}
