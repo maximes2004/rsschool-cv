@@ -20,13 +20,18 @@ body {
   padding: 0 20px; /* Side padding for mobile responsiveness */
 }
 
-/* Header styles with full-width background */
+/* header styles*/
 .header {
   padding: 0 0 20px 0;
 }
 
 header .main-title {
-    margin-top: 32px;
+  margin-top: 32px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Section styles for visual separation */
@@ -48,7 +53,7 @@ header .main-title {
 
 .nav-list li {
   list-style: none;
-  margin-right: 20px;
+  margin-right: 16px;
   white-space: nowrap;
 }
 
@@ -90,4 +95,19 @@ header .nav a {
 
 footer .copyright {
   margin-top: 16px;
+}
+
+.footer-block-item {
+  display: flex;
+  align-items: center;
+}
+
+/*code formatting*/
+#code pre {
+  white-space: pre-wrap;
+}
+
+/*education styles*/
+#education .puzzle-game {
+  padding-top: 16px;
 }
