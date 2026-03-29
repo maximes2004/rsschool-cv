@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header section-alt">
       <div class="wrapper">
         <nav class="nav">
           <ul class="nav-list">
@@ -30,8 +30,6 @@
     </header>
 
     <main class="main-content">
-      <hr />
-
       <section id="about" class="section">
         <div class="wrapper">
           <h2 class="section-title">About me</h2>
@@ -44,9 +42,7 @@
         </div>
       </section>
 
-      <hr />
-
-      <section id="contacts" class="section">
+      <section id="contacts" class="section section-alt">
         <div class="wrapper">
           <h2 class="section-title">Contacts</h2>
           <ul>
@@ -57,8 +53,6 @@
           </ul>
         </div>
       </section>
-
-      <hr />
 
       <section id="skills" class="section">
         <div class="wrapper">
@@ -78,9 +72,7 @@
         </div>
       </section>
 
-      <hr />
-
-      <section id="code" class="section">
+      <section id="code" class="section section-alt">
         <div class="wrapper">
           <h2 class="section-title">Code Example</h2>
           <pre><code>
@@ -110,8 +102,6 @@ console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
         </div>
       </section>
 
-      <hr />
-
       <section id="experience" class="section">
         <div class="wrapper">
           <h2 class="section-title">Experience</h2>
@@ -121,9 +111,7 @@ console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
         </div>
       </section>
 
-      <hr />
-
-      <section id="education" class="section">
+      <section id="education" class="section section-alt">
         <div class="wrapper">
           <h2 class="section-title">Education</h2>
           <ul>
@@ -152,8 +140,6 @@ console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
         </div>
       </section>
 
-      <hr />
-
       <section id="languages" class="section">
         <div class="wrapper">
           <h2 class="section-title">Languages</h2>
@@ -166,10 +152,22 @@ console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer section-alt">
       <div class="wrapper">
         <div class="footer-block">
-          <div class="footer-block-item">GitHub</div>
+          <div class="footer-block-item">
+            <a
+              href="https://github.com/maximes2004"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="github-logo"
+                src="/pictures/github-logo.png"
+                alt="GitHub"
+            /></a>
+          </div>
+
           <div class="footer-block-item">2026</div>
           <div class="footer-block-item">
             <a
@@ -185,7 +183,9 @@ console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
             </a>
           </div>
         </div>
-        <p>&copy; Maxim Denisenkov. Made with love for RS School</p>
+        <p class="copyright">
+          &copy; Maxim Denisenkov. Made with love for RS School
+        </p>
       </div>
     </footer>
   </body>
