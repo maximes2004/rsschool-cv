@@ -1,0 +1,113 @@
+/* Reset basic offsets and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.5;
+}
+
+/* Wrapper (Container) for content alignment */
+.wrapper {
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Horizontal centering */
+  padding: 0 20px; /* Side padding for mobile responsiveness */
+}
+
+/* header styles*/
+.header {
+  padding: 0 0 20px 0;
+}
+
+header .main-title {
+  margin-top: 32px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section styles for visual separation */
+.section {
+  padding: 40px 0;
+}
+
+/* Alternative background for specific sections */
+.section-alt {
+  background-color: rgba(176, 196, 222, 0.25);
+}
+
+/*nav styles*/
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  list-style: none;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+
+header .nav {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  background-color: rgba(176, 196, 222, 1);
+}
+
+header .nav a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*footer styles*/
+.footer {
+  background-color: rgba(176, 196, 222, 1);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.rs-school-logo {
+  height: 32px;
+}
+
+.github-logo {
+  height: 28px;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-block-item {
+  margin-right: 20px;
+}
+
+footer .copyright {
+  margin-top: 16px;
+}
+
+.footer-block-item {
+  display: flex;
+  align-items: center;
+}
+
+/*code formatting*/
+#code pre {
+  white-space: pre-wrap;
+}
+
+/*education styles*/
+.projects-list {
+  padding-top: 2rem;
+}

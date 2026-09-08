@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header section-alt">
+    <div class="wrapper">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code example</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <h1 class="main-title">Maxim Denisenkov</h1>
+      <h2>Junior Frontend Developer</h2>
+      <img src="pictures/photo_5411378456605870556_y.jpg" alt="Maxim Denisenkov">
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="about" class="section">
+      <div class="wrapper">
+        <h2 class="section-title">About me</h2>
+        <p>
+          I'm passionate about website development and have commercial
+          experience in this field. I previously completed courses at HTML
+          Academy (2019) and Geek Brains (2025). I'm looking to solidify my
+          skills and turn my passion into a career.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-alt">
+      <div class="wrapper">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Location: Yerevan, Armenia</li>
+          <li>Phone: +374 93 881-693</li>
+          <li>Email: maximes2004@gmail.com</li>
+          <li>GitHub: maximes2004</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="wrapper">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (basic)</li>
+          <li>VueJS (basic)</li>
+          <li>VS Code</li>
+          <li>OS Windows, Ubuntu</li>
+          <li>GitHub</li>
+          <li>CMS Joomla, Wordpress</li>
+          <li>Adobe Photoshop (basic)</li>
+          <li>Figma (basic)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="code" class="section section-alt">
+      <div class="wrapper">
+        <h2 class="section-title">Code Example</h2>
+        <pre><code>
+function isPrime(num) {
+    // Numbers less than or equal to 1 are not prime.
+    if (num &lt;= 1) {
+        return false;
+    }
+
+    // We check the divisibility of a number by all integers from 2 to the square root of the number.
+    for (let i = 2; i &lt;= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            // If a divisor is found, the number is not prime.
+            return false;
+        }
+    }
+
+    // If the cycle terminates without finding any divisors, the number is prime.
+    return true;
+}
+
+
+// Testing
+
+console.log(`The number 19 is prime: ${isPrime(19)}`); // Expected true
+</code></pre>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrapper">
+        <h2 class="section-title">Experience</h2>
+        <p>
+          Creation and commercial use of a website on the Joomla, WordPress
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="wrapper">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>
+            <a href="https://sutd.ru/" target="_blank" rel="noopener noreferrer">Saint Petersburg State University of
+              Technology and Design, Specialist degree in engineering
+              (graduated in 2014)</a>
+          </li>
+          <li>
+            <a href="https://htmlacademy.ru/" target="_blank" rel="noopener noreferrer">
+              HTML Academy courses, Web layout specialist
+              (graduated in 2019)
+            </a>
+          </li>
+          <li>
+            <a href="https://gb.ru/" target="_blank" rel="noopener noreferrer">Geek Brains, Frontend developer
+              (graduated in 2025)</a>
+          </li>
+          <li>
+            <a href="https://rs.school/" target="_blank" rel="noopener noreferrer">RS School, JS/FE Pre-School 2026 Q1
+              (graduated in 2026)</a>
+          </li>
+        </ul>
+        <h3 class="projects-list">Completed educational projects</h3>
+        <ul>
+          <li>
+            <p class="ed-project">
+              <a href="https://maximes2004.github.io/Funny-puzzle" target="_blank" rel="noopener noreferrer">Timed
+                Puzzle
+                Game</a> (2024)
+            </p>
+          </li>
+          <li>
+            <p class="ed-project">
+              <a href="https://rolling-scopes-school.github.io/maximes2004-JSFEPRESCHOOL2026Q1/christmas-shop/home.html"
+                target="_blank" rel="noopener noreferrer">Christmas Shop</a> (2026)
+            </p>
+          </li>
+          <li>
+            <p class="ed-project">
+              <a href="https://maximes2004.github.io/shelter/shelter/index.html" target="_blank"
+                rel="noopener noreferrer">Shelter</a> (2024)
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="languages" class="section">
+      <div class="wrapper">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian (native)</li>
+          <li>English (B1)</li>
+          <li>Armenian (A1)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-alt">
+    <div class="wrapper">
+      <div class="footer-block">
+        <div class="footer-block-item">
+          <a href="https://github.com/maximes2004" target="_blank" rel="noopener noreferrer">
+            <img class="github-logo" src="pictures/github-logo.png" alt="GitHub"></a>
+        </div>
+
+        <div class="footer-block-item"><span>2026</span></div>
+        <div class="footer-block-item">
+          <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+            <img class="rs-school-logo" src="pictures/rs-school-logo.svg" alt="RS School JavaScript">
+          </a>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; Maxim Denisenkov. Made with love for RS School
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
