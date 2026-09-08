@@ -108,6 +108,6 @@ footer .copyright {
 }
 
 /*education styles*/
-#education .puzzle-game {
-  padding-top: 16px;
+.projects-list {
+  padding-top: 2rem;
 }
